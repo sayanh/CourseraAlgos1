@@ -24,7 +24,7 @@ public class QuickFindUnion {
         int qid = id[q];
         for ( int i = 0; i < id.length; i++ ) {
             if (id[i] == pid) {
-                id[p] = qid;
+                id[i] = qid;
             }
         }
     }
